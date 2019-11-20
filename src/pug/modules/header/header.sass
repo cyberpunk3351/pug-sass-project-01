@@ -1,5 +1,42 @@
-.hederLogo
-    height: 80px
+header
+    margin-top: 16px
+    margin-bottom: 16px
 
-header .wrapper
-    background-color: #009688
+.hederLogo
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    // padding-bottom: 16px
+// header .wrapper
+//     background-color: #009688
+
+.sibLogo img 
+    width: 300px
+
+.sibInfo
+    text-align: right
+    strong
+        color: #007ea7
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 20px
+    small
+        font-size: 14px
+    p
+        margin-bottom: 4px
+
+@media (min-width: 767px) and (max-width: 1199.98px)
+    header .containers
+        width: 100%
+
+@media (max-width: 767.98px)
+    header .containers
+        width: 100%
+    // .logo img
+    //     padding-bottom: 8px
+    .hederLogo
+        flex-direction: column
+        // padding-bottom: 18px
+    .sibInfo
+        text-align: center

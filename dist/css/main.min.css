@@ -2,24 +2,24 @@
   font-family: "lato-font";
   font-weight: normal;
   font-style: normal;
-  src: url("../font/Lato-Regular/Lato-Regular.eot");
-  src: url("../font/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Regular/Lato-Regular.woff") format("woff"), url("../font/Lato-Regular/Lato-Regular.ttf") format("truetype");
+  src: url("/fonts/Lato-Regular/Lato-Regular.eot");
+  src: url("/fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Regular/Lato-Regular.woff") format("woff"), url("/fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "lato-heavy";
   font-weight: normal;
   font-style: normal;
-  src: url("../font/Lato-Heavy/Lato-Heavy.eot");
-  src: url("../font/Lato-Heavy/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../font/Lato-Heavy/Lato-Heavy.woff") format("woff"), url("../font/Lato-Heavy/Lato-Heavy.ttf") format("truetype");
+  src: url("/fonts/Lato-Regular/Lato-Heavy.eot");
+  src: url("/fonts/Lato-Regular/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Regular/Lato-Heavy.woff") format("woff"), url("/fonts/Lato-Regular/Lato-Heavy.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "lato-bold";
   font-weight: normal;
   font-style: normal;
-  src: url("../font/lato-bold/lato-bold.eot");
-  src: url("../font/lato-bold/lato-bold.eot?#iefix") format("embedded-opentype"), url("../font/lato-bold/lato-bold.woff") format("woff"), url("../font/lato-bold/lato-bold.ttf") format("truetype");
+  src: url("/fonts/Lato-Regular/lato-bold.eot");
+  src: url("/fonts/Lato-Regular/lato-bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato-Regular/lato-bold.woff") format("woff"), url("/fonts/Lato-Regular/lato-bold.ttf") format("truetype");
 }
 
 *,
@@ -108,18 +108,190 @@ a {
   width: 100%;
 }
 
+header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .hederLogo {
-  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-header .wrapper {
-  background-color: #009688;
+.sibLogo img {
+  width: 300px;
 }
 
-nav .wrapper {
-  background-color: #003d33;
+.sibInfo {
+  text-align: right;
 }
 
-.navMenu {
-  height: 20px;
+.sibInfo strong {
+  color: #007ea7;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sibInfo small {
+  font-size: 14px;
+}
+
+.sibInfo p {
+  margin-bottom: 4px;
+}
+
+.wrpMenu {
+  width: 100%;
+  background-color: #172C33;
+}
+
+.mainMenu {
+  width: 1170px;
+  height: 40px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+li a {
+  display: block;
+  min-width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background: #172C33;
+  text-decoration: none;
+}
+
+li:hover a {
+  background: #405860;
+}
+
+li:hover ul a {
+  background: #f3f3f3;
+  color: #415258;
+  height: 40px;
+  line-height: 40px;
+}
+
+li:hover ul a:hover {
+  background: #405860;
+  color: #fff;
+}
+
+li ul {
+  display: none;
+}
+
+li ul li {
+  display: block;
+  float: none;
+}
+
+li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+ul li a:hover + .hidden,
+.hidden:hover {
+  display: block;
+}
+
+.show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #172C33;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #414F54;
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  header .containers {
+    width: 100%;
+  }
+
+  .hederLogo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sibInfo {
+    text-align: center;
+  }
+
+  .mainMenu {
+    width: 100%;
+    height: auto;
+  }
+
+  ul {
+    position: static;
+    display: none;
+  }
+
+  li {
+    border-bottom: 1px solid #414F54;
+  }
+
+  ul li,
+  li a {
+    width: 100%;
+  }
+
+  .show-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1199.98px) {
+  header .containers {
+    width: 100%;
+  }
+
+  .mainMenu {
+    width: 100%;
+  }
+
+  li a {
+    display: block;
+    min-width: 110px;
+  }
 }
