@@ -92,6 +92,12 @@ body {
   background-color: #fff;
 }
 
+.content {
+  width: 100%;
+  position: absolute;
+  z-index: -1000;
+}
+
 a {
   text-decoration: none;
 }
@@ -150,6 +156,11 @@ header {
 
 .sibInfo p {
   margin-bottom: 4px;
+}
+
+.fa-phone-square:before {
+  content: "\f098";
+  padding-right: 15px;
 }
 
 .wrpMenu {
@@ -241,6 +252,63 @@ input[type=checkbox]:checked ~ #menu {
   display: block;
 }
 
+.wrpCarusel {
+  width: 100%;
+  padding-top: 16px;
+  background-color: #007ea7;
+  margin-bottom: 32px;
+}
+
+.containerCarusel {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrpCarusel-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.contentL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  align-items: right;
+  color: white;
+}
+
+.contentL h1 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px #222;
+  padding-bottom: 16px;
+}
+
+.contentR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 @media (max-width: 767.98px) {
   header .containers {
     width: 100%;
@@ -279,6 +347,27 @@ input[type=checkbox]:checked ~ #menu {
   .show-menu {
     display: block;
   }
+
+  .containerCarusel {
+    width: 100%;
+  }
+
+  .wrpCarusel-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .contentL {
+    text-align: center;
+  }
+
+  .contentR img {
+    height: 100%;
+    width: 100%;
+    max-width: 450px;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1199.98px) {
@@ -293,5 +382,9 @@ input[type=checkbox]:checked ~ #menu {
   li a {
     display: block;
     min-width: 110px;
+  }
+
+  .containerCarusel {
+    width: 100%;
   }
 }
