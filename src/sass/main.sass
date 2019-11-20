@@ -1,0 +1,45 @@
+@import "fonts"
+@import "vars"
+@import "vars2"
+
+*
+    padding: 0
+    margin: 0
+
+body
+    font-family: $default-font
+    min-width: 320px
+    // position: relative
+    background-color: #fff
+    
+// .body2
+//     width: 100%
+//     position: absolute
+//     z-index: -1000
+
+// .fa, .fas
+// 	padding-left: 5px
+// .far
+//     padding-right: 5px
+
+a 
+	text-decoration: none 
+	// color: #007ea7
+
+.containers
+    width: 1200px
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+
+.wrapper
+    width: 100%
+
+// .content
+//     background-color: #fff
+
+@import "../pug/modules/header/header"
+@import "../pug/modules/nav/nav"
+
+@import "../pug/style/index"
