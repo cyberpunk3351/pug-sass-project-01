@@ -296,6 +296,11 @@ input[type=checkbox]:checked ~ #menu {
   }
 }
 
+.carusel {
+  width: 100%;
+  background-color: #007ea7;
+}
+
 .wrpCarusel {
   width: 100%;
   padding-top: 16px;
@@ -354,13 +359,13 @@ input[type=checkbox]:checked ~ #menu {
 }
 
 @media (min-width: 767px) and (max-width: 1199.98px) {
-  .containerCarusel {
+  .carusel .containers {
     width: 100%;
   }
 }
 
 @media (max-width: 767.98px) {
-  .containerCarusel {
+  .carusel .containers {
     width: 100%;
   }
   .wrpCarusel-flex {
