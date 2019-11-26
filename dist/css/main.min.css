@@ -89,7 +89,7 @@ p {
 body {
   font-family: "lato-font", sans-serif;
   min-width: 320px;
-  background-color: #fff;
+  background-color: #eeeeee;
 }
 
 .content {
@@ -314,6 +314,231 @@ input[type=checkbox]:checked ~ #menu {
   justify-content: center;
 }
 
+.wrpNextBlock {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.containerNextBlock {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.zagolovok {
+  margin-bottom: 16px;
+  color: #424242;
+}
+
+.zagolovok h1 {
+  font-size: 32px;
+}
+
+.fa-angle-double-right:before {
+  font-size: 26px;
+  padding-right: 10px;
+  color: #007ea7;
+}
+
+.triBlockFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.block {
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.block img {
+  padding-bottom: 24px;
+}
+
+.block h1 {
+  font-size: 32px;
+  color: #424242;
+}
+
+.block p {
+  color: #424242;
+}
+
+.block img.animate1:hover {
+  -webkit-filter: alpha Opacity=25;
+  filter: alpha Opacity=25;
+  opacity: 0.55;
+}
+
+.newsWrap {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.containerNextBlock > .triBlockFlex > .block {
+  background-color: initial;
+  padding: 0;
+  text-align: left;
+  height: auto;
+}
+
+.containerNextBlock > .triBlockFlex > .block p {
+  margin-bottom: 8px;
+}
+
+.containerNextBlock > .triBlockFlex > .block p:last-child {
+  margin-bottom: 0;
+}
+
+.containerNextBlock > .triBlockFlex > .block span {
+  font-weight: bold;
+}
+
+.newsZagolovok {
+  color: #424242;
+  margin-bottom: 16px;
+}
+
+.newsZagolovok h1 {
+  font-size: 32px;
+}
+
+.about {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  background-color: #fff;
+}
+
+.containerAbout {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.newsBlock3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.newsLeft1 {
+  width: 570px;
+}
+
+.newsRight1 {
+  width: 570px;
+}
+
+.wrapFoo {
+  margin-top: 32px;
+  width: 100%;
+  color: #fff;
+  background-color: #172C33;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.contFoo {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contFoo a {
+  display: block;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.contFoo a:hover {
+  text-decoration: none;
+  display: block;
+  color: #00A8E8;
+  cursor: pointer;
+}
+
+.blocTel {
+  width: 270px;
+  text-align: right;
+  padding-right: 32px;
+}
+
+.blocTel strong {
+  display: block;
+  color: #00A8E8;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.blocMenuOneWrp {
+  width: 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blocMenuOne {
+  display: block;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 32px;
+}
+
+.blocMenuTwo {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 32px;
+}
+
+.blocCopy {
+  width: 270px;
+  text-align: left;
+}
+
+.blocCopy span {
+  margin-left: 8px;
+}
+
 @media (max-width: 767.98px) {
   header .containers {
     width: 100%;
@@ -373,6 +598,84 @@ input[type=checkbox]:checked ~ #menu {
     width: 100%;
     max-width: 450px;
   }
+
+  .triBlockFlex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .block {
+    margin-bottom: 16px;
+  }
+
+  .containerNextBlock > .triBlockFlex > .block:last-child {
+    margin-bottom: 0;
+  }
+
+  .newsBlock3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .newsLeft1 {
+    width: 100%;
+  }
+
+  .newsRight1 {
+    width: 100%;
+  }
+
+  .contFoo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .blocTel {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .blocMenuOneWrp {
+    padding-bottom: 16px;
+  }
+
+  .blocMenuOne {
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .blocMenuTwo {
+    padding-left: 15px;
+  }
+
+  .blocTel {
+    padding-bottom: 8px;
+  }
+
+  .blocCopy {
+    text-align: center;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1199.98px) {
@@ -391,5 +694,32 @@ input[type=checkbox]:checked ~ #menu {
 
   .carusel .containers {
     width: 100%;
+  }
+
+  .block {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 95%;
+  }
+
+  .containerNextBlock > .triBlockFlex > .block {
+    margin-right: 15px;
+  }
+
+  .containerNextBlock > .triBlockFlex > .block:last-child {
+    margin-right: 0;
+  }
+
+  .blocTel {
+    width: 35%;
+  }
+
+  .blocMenuOneWrp {
+    width: 45%;
+  }
+
+  .blocCopy {
+    width: 20%;
   }
 }

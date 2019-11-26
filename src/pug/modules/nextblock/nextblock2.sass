@@ -1,0 +1,63 @@
+.wrpNextBlock 
+    width: 100%
+    margin-bottom: 32px
+	
+.containerNextBlock
+	max-width: 1170px 
+	padding-right: 15px 
+	padding-left: 15px 
+	margin-right: auto 
+	margin-left: auto 
+	overflow: hidden
+.zagolovok
+    margin-bottom: 16px
+    // font-size: 32px
+    color: $text
+    h1
+        font-size: 32px
+
+.fa-angle-double-right 
+	&:before 
+		font-size: 26px 
+		padding-right: 10px 
+		color: #007ea7 
+
+.triBlockFlex
+    display: flex
+    justify-content: space-between
+.block
+    padding-top: 16px
+    padding-left: 15px
+    padding-right: 15px
+    width: 350px
+    height: 300px
+    text-align: center 
+    background-color: #fff
+    img
+        padding-bottom: 24px
+    h1
+        font-size: 32px
+        color: $text
+    p 
+        color: $text
+.block 
+	img 
+		&.animate1 
+			&:hover 
+				filter: alpha (Opacity=25) 
+				opacity: 0.55 
+
+
+@media (min-width: 767px) and (max-width: 1199.98px)
+    .block
+        align-items: center
+        width: 95%
+
+@media (max-width: 767.98px)
+    .triBlockFlex
+        align-items: center
+        display: flex
+        justify-content: center
+        flex-direction: column  
+    .block
+        margin-bottom: 16px

@@ -1,0 +1,89 @@
+.wrapFoo
+    margin-top: 32px
+    width: 100%
+    color: #fff
+    background-color: #172C33
+    padding-top: 32px
+    padding-bottom: 16px
+
+.contFoo
+    max-width: 1170px
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+    overflow: hidden
+    display: flex
+    justify-content: space-between
+    a 
+        display: block
+        color: #eeeeee
+        text-decoration: none
+        &:hover
+            text-decoration: none
+            display: block
+            color: #00A8E8
+            cursor: pointer
+
+
+.blocTel    
+    width: 270px
+    text-align: right
+    padding-right: 32px
+    & strong
+        display: block
+        color: #00A8E8
+        font-weight: bold
+        font-size: 26px
+        margin-top: 8px
+        margin-bottom: 8px
+
+.blocMenuOneWrp
+    width: 470px
+    display: flex
+
+.blocMenuOne
+    display: block
+    width: 50%
+    display: flex
+    flex-direction: column
+    line-height: 32px    
+
+.blocMenuTwo
+    width: 50%
+    display: flex
+    flex-direction: column
+    line-height: 32px
+
+.blocCopy
+    width: 270px
+    text-align: left
+    span 
+        margin-left: 8px
+        
+@media (min-width: 767px) and (max-width: 1199.98px)
+    .blocTel
+        width: 35%
+    .blocMenuOneWrp
+        width: 45%
+    .blocCopy
+        width: 20%
+
+@media (max-width: 767.98px)
+    .contFoo
+        flex-direction: column
+        align-items: center
+    .blocTel
+        text-align: center
+        padding-right: 0
+    .blocMenuOneWrp
+        padding-bottom: 16px
+    .blocMenuOne
+        text-align: right
+        padding-right: 15px
+    .blocMenuTwo
+        padding-left: 15px
+    .blocTel
+        padding-bottom: 8px
+    .blocCopy
+        text-align: center
