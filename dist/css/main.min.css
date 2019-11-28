@@ -102,16 +102,16 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 .containers {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.wrapper {
-  width: 100%;
 }
 
 header {
@@ -252,27 +252,14 @@ input[type=checkbox]:checked ~ #menu {
   display: block;
 }
 
-.carusel {
+.carusel .wrapper {
   width: 100%;
   background-color: #007ea7;
-}
-
-.wrpCarusel {
-  width: 100%;
   padding-top: 16px;
-  background-color: #007ea7;
   margin-bottom: 32px;
 }
 
-.containerCarusel {
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.wrpCarusel-flex {
+.carusel .containers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,10 +566,6 @@ input[type=checkbox]:checked ~ #menu {
   }
 
   .carusel .containers {
-    width: 100%;
-  }
-
-  .wrpCarusel-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -676,6 +659,10 @@ input[type=checkbox]:checked ~ #menu {
   .blocCopy {
     text-align: center;
   }
+
+  .containers {
+    width: 100%;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1199.98px) {
@@ -690,10 +677,6 @@ input[type=checkbox]:checked ~ #menu {
   li a {
     display: block;
     min-width: 110px;
-  }
-
-  .carusel .containers {
-    width: 100%;
   }
 
   .block {
@@ -721,5 +704,9 @@ input[type=checkbox]:checked ~ #menu {
 
   .blocCopy {
     width: 20%;
+  }
+
+  .containers {
+    width: 100%;
   }
 }

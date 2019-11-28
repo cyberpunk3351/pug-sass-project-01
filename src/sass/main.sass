@@ -30,15 +30,15 @@ a
 	text-decoration: none 
 	// color: #007ea7
 
+.wrapper
+    width: 100%
+
 .containers
     width: 1200px
     padding-right: 15px
     padding-left: 15px
     margin-right: auto
     margin-left: auto
-
-.wrapper
-    width: 100%
 
 @import "../pug/modules/header/header"
 @import "../pug/modules/nav/nav"
@@ -50,3 +50,12 @@ a
 @import "../pug/modules/news/news"
 @import "../pug/modules/about/about"
 @import "../pug/modules/footer/footer"
+
+
+@media (min-width: 767px) and (max-width: 1199.98px)
+    .containers
+        width: 100%
+
+@media (max-width: 767.98px)
+    .containers
+        width: 100%
