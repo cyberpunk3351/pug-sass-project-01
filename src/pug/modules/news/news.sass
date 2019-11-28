@@ -1,18 +1,18 @@
-.newsWrap
-    width: 100%
+.news
     margin-bottom: 32px
 
-.containerNextBlock > .triBlockFlex > .block
-    background-color: initial
-    padding: 0
-    text-align: left
-    height: auto
-    p 
-        margin-bottom: 8px
-        &:last-child
-            margin-bottom: 0
-    span 
-        font-weight: bold
+.news 
+    .block
+        background-color: initial
+        padding: 0
+        text-align: left
+        height: auto
+        p 
+            margin-bottom: 8px
+            &:last-child
+                margin-bottom: 0
+        span 
+            font-weight: bold
 
 
 .newsZagolovok
@@ -22,11 +22,11 @@
         font-size: 32px
 
 @media (min-width: 767px) and (max-width: 1199.98px)
-    .containerNextBlock > .triBlockFlex > .block
+    .triBlockFlex > .block
         margin-right: 15px
         &:last-child
             margin-right: 0
 
 @media (max-width: 767.98px)
-    .containerNextBlock > .triBlockFlex > .block:last-child
+    .triBlockFlex > .block:last-child
         margin-bottom: 0

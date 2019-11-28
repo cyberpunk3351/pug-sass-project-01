@@ -301,18 +301,8 @@ input[type=checkbox]:checked ~ #menu {
   justify-content: center;
 }
 
-.wrpNextBlock {
-  width: 100%;
+.nextblock {
   margin-bottom: 32px;
-}
-
-.containerNextBlock {
-  max-width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
 }
 
 .zagolovok {
@@ -368,27 +358,26 @@ input[type=checkbox]:checked ~ #menu {
   opacity: 0.55;
 }
 
-.newsWrap {
-  width: 100%;
+.news {
   margin-bottom: 32px;
 }
 
-.containerNextBlock > .triBlockFlex > .block {
+.news .block {
   background-color: initial;
   padding: 0;
   text-align: left;
   height: auto;
 }
 
-.containerNextBlock > .triBlockFlex > .block p {
+.news .block p {
   margin-bottom: 8px;
 }
 
-.containerNextBlock > .triBlockFlex > .block p:last-child {
+.news .block p:last-child {
   margin-bottom: 0;
 }
 
-.containerNextBlock > .triBlockFlex > .block span {
+.news .block span {
   font-weight: bold;
 }
 
@@ -602,7 +591,7 @@ input[type=checkbox]:checked ~ #menu {
     margin-bottom: 16px;
   }
 
-  .containerNextBlock > .triBlockFlex > .block:last-child {
+  .triBlockFlex > .block:last-child {
     margin-bottom: 0;
   }
 
@@ -686,11 +675,11 @@ input[type=checkbox]:checked ~ #menu {
     width: 95%;
   }
 
-  .containerNextBlock > .triBlockFlex > .block {
+  .triBlockFlex > .block {
     margin-right: 15px;
   }
 
-  .containerNextBlock > .triBlockFlex > .block:last-child {
+  .triBlockFlex > .block:last-child {
     margin-right: 0;
   }
 
