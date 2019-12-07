@@ -527,12 +527,6 @@ ul.breadcrumb li {
   display: inline;
 }
 
-ul.breadcrumb li + li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
 ul.breadcrumb li a {
   color: #0275d8;
   text-decoration: none;
@@ -540,6 +534,11 @@ ul.breadcrumb li a {
 
 ul.breadcrumb li a:hover {
   color: #007ea7;
+}
+
+ul.breadcrumb li i {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media (max-width: 767.98px) {

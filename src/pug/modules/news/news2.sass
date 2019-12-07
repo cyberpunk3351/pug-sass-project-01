@@ -1,20 +1,32 @@
 .news2
     margin-top: 32px 
     
+// ul.breadcrumb
+//     // padding: 10px 16px 
+//     list-style: none 
+//     // background-color: #eee 
+//     li 
+//         display: inline 
+//         // font-size: 18px 
+//         & + li 
+//             i 
+//                 padding: 8px 
+//                 color: black 
+//                 // content: "/\00a0" 
+//         a 
+//             color: #0275d8 
+//             text-decoration: none 
+//             &:hover 
+//                 color: #007ea7
 ul.breadcrumb
-    // padding: 10px 16px 
-    list-style: none 
-    // background-color: #eee 
-    li 
+    list-style: none
+    li
         display: inline 
-        // font-size: 18px 
-        & + li 
-            &:before 
-                padding: 8px 
-                color: black 
-                content: "/\00a0" 
         a 
             color: #0275d8 
             text-decoration: none 
             &:hover 
                 color: #007ea7
+        i 
+            padding-right: 10px
+            padding-left: 10px
