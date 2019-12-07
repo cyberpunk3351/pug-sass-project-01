@@ -1,9 +1,8 @@
+include ../../mixins/breadcrumbs2
+
 section.news2
     .wrapper
         .containers
-            ul.breadcrumb
-                li
-                    a(href='index.html') Главная 
-                li Новости
+            +breadcrumb([["Home", "/home.html"], ["About", "/about.html"], ["Contact", "/contact.html"]])
 
 
