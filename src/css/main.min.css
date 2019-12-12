@@ -455,6 +455,10 @@ header {
   margin-bottom: 32px;
 }
 
+.news p {
+  line-height: 1.444em;
+}
+
 .news .block {
   background-color: initial;
   padding: 0;
@@ -797,6 +801,15 @@ ul.breadcrumb li i {
   font-family: "lato-font", sans-serif;
 }
 
+.services p {
+  line-height: 1.4em;
+}
+
+.services h1 {
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
 ul.breadcrumb {
   list-style: none;
   padding-bottom: 16px;
@@ -822,6 +835,7 @@ ul.breadcrumb li i {
 
 .servicesList {
   list-style: none;
+  line-height: 1.4em;
 }
 
 .servicesList li:before {
