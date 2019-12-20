@@ -1,0 +1,57 @@
+.news2
+    margin-top: 32px
+    font-family: $default-font
+a 
+    color: #0275d8 
+    text-decoration: none 
+    
+ul.breadcrumb
+    list-style: none
+    padding-bottom: 16px
+    li
+        display: inline 
+        a 
+            color: #0275d8 
+            text-decoration: none 
+            &:hover 
+                color: #007ea7
+        i 
+            padding-right: 10px
+            padding-left: 10px
+
+.newsFlex
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    padding-top: 16px
+    // height: 100vh
+    background-color: #fff
+.newsL
+    width: 770px
+.newsR
+    width: 370px
+    display: flex
+    flex-direction: column
+.shortNewsBlock
+    display: flex
+    padding-top: 32px    
+    img 
+        width: 100px
+        height: 100px
+    .newsTitle
+        padding-left: 15px
+        i 
+            padding-right: 5px
+            padding-bottom: 16px
+
+@media (max-width: 767.98px)
+    .newsFlex
+        flex-direction: column
+    .newsL
+        width: 100%
+    .newsR
+        width: 100%
+        display: flex
+        justify-content: center
+        flex-direction: column
+        align-items: center
