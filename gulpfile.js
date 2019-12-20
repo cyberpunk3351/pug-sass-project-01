@@ -1,11 +1,11 @@
-var gulp        = require('gulp'); 
-var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
-var notify      = require("gulp-notify");
-var pug 		= require('gulp-pug');
-var rename 		= require('gulp-rename');
+var gulp                = require('gulp'); 
+var browserSync         = require('browser-sync').create();
+var sass                = require('gulp-sass');
+var notify              = require("gulp-notify");
+var pug 		        = require('gulp-pug');
+var rename 		        = require('gulp-rename');
 var autoprefixer 		= require('gulp-autoprefixer');
-gcmq 	  	 	 = require('gulp-group-css-media-queries');
+var gcmq 	  	 	    = require('gulp-group-css-media-queries');
 
 
 // Static server
@@ -29,7 +29,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('pug', function(){
-    return gulp.src(['src/pug/*.pug','!src/pug/_layouts/*.*'])
+    return gulp.src(['src/pug/**/*.pug','!src/pug/layouts/*.*','!src/pug/modules/**/*.*','!src/pug/mixins/**/*.*'])
         .pipe(pug({
             pretty: true
         }))
@@ -59,4 +59,5 @@ gulp.task('watch', function() {
 	gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
 });
 
-gulp.task('default', gulp.parallel('styles', 'copy-img', 'copy-font', 'gcmq', 'pug', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('styles', 'gcmq', 'pug', 'browser-sync', 'watch'));
+gulp.task('default1', gulp.parallel('styles', 'copy-img', 'copy-font', 'gcmq', 'pug', 'browser-sync', 'watch'));
