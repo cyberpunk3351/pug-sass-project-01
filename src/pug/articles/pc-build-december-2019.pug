@@ -1,7 +1,22 @@
-extends ../layouts/home
 include ../mixins/breadcrumbs2
-block content
-    section.news2
-        .wrapper
-            .containers
-                +breadcrumb([['Домой', '/index.html'], ['Статьи', '/articles.html'],['ПК Сборка за Декабрь']])
+
+section.news2
+    .wrapper
+        .containers
+            +breadcrumb([['Домой', '/index.html'], ['Статьи', '/articles.html'], ['ПК сборка за декабрь 2019']])
+    .wrapper
+        .containers.newsFlex
+            .artcicles
+                h1 ПК сборка за декабрь 2019:                
+                .shortNewsBlock
+                    .newsImage
+                        img(src='imgs/news.png', alt='News Image')   
+                    .newsTitle
+                        h2 ПК Сборка. Декабрь 2019
+                        small
+                            i.far.fa-calendar-alt
+                            | 28 Декабря 2019
+                        p
+                            | В ближайшее время будет дополнена информация в разделы, выложен анонс акций и скидок, будут появляться новости из мира IT-индустрии. Сохраняйте в закладки, чтобы не пропустить интересное. 
+                        a(href='/articles/pc-build-december-2019.html') Далее
+

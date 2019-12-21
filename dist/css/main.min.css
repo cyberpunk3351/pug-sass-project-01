@@ -730,88 +730,8 @@ ul.breadcrumb li i {
   padding-right: 10px;
 }
 
-.news2 {
-  margin-top: 32px;
-  font-family: "lato-font", sans-serif;
-}
-
-a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb {
-  list-style: none;
-  padding-bottom: 16px;
-}
-
-ul.breadcrumb li {
-  display: inline;
-}
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-  color: #007ea7;
-}
-
-ul.breadcrumb li i {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.newsFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-top: 16px;
-  background-color: #fff;
-}
-
-.newsL {
-  width: 770px;
-}
-
-.newsR {
-  width: 370px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.shortNewsBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 32px;
-}
-
-.shortNewsBlock img {
-  width: 100px;
-  height: 100px;
-}
-
-.shortNewsBlock .newsTitle {
-  padding-left: 15px;
-}
-
-.shortNewsBlock .newsTitle i {
-  padding-right: 5px;
-  padding-bottom: 16px;
+.artcicles {
+  width: 100%;
 }
 
 @media (max-width: 767.98px) {
@@ -946,34 +866,6 @@ ul.breadcrumb li i {
 
   .blocCopy {
     text-align: center;
-  }
-
-  .newsFlex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .newsL {
-    width: 100%;
-  }
-
-  .newsR {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
   }
 
   .newsFlex {
