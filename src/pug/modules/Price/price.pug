@@ -1,0 +1,27 @@
+include ../../mixins/breadcrumbs2
+
+section.price
+    .wrapper
+        .containers
+            +breadcrumb([['Домой', '/index.html'], ['Прайс-лист']])
+    .wrapper
+        .containers.newsFlex
+            .newsL
+                h1 Прайс-лист:
+                button.accordion Ремонт
+                .panel
+                    p
+                        a(href="#pc") Компьютеры
+                    p
+                        a(href="#notebook") Ноубуки
+                button.accordion Настройка
+                .panel
+                    p
+                        a(href="#pc") Настройка ПК и Нотубкуа
+                    p
+                        a(href="#notebook") Настройка WiFi/Домашние сети
+            
+            .newsR
+                img(src='/imgs/0.png', alt='news')
+                img(src='/imgs/1.png', alt='news')
+

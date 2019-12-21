@@ -1,0 +1,8 @@
+extends layouts/home
+
+block content
+    include ./modules/price/price
+    include ./modules/footer/footer
+
+block body_end
+    script(type="text/javascript" src="/js/price.js")
