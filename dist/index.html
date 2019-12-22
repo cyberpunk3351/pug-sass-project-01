@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
   </head>
   <body>
     <header>
@@ -52,18 +54,30 @@
         </div>
       </div>
     </nav>
-    <div class="content">
-      <section class="carusel">
-        <div class="wrapper">
-          <div class="containers">
-            <div class="contentL">
-              <h1>Диагностика и Ремонт Вашего Компьютера</h1>
-              <p>Если Вам нужен ремонт компьютера или ноутбука, настройка или установка программного обеспечения, обращайтесь.</p>
-            </div>
-            <div class="contentR"><img src="imgs/sibcomp_carusel3.jpg" alt="SibComp Hardware"></div>
-          </div>
-        </div>
-      </section>
+    <div class="content"><section class="caruselSlider">
+<div class="wrapper">
+<div class="containers">
+<div id="da-slider" class="da-slider">
+<div class="da-slide">        
+<h2>Диагностика и ремонт</h2>
+<p>Если Вам нужен ремонт компьютера или ноутбука, настройка или установка программного обеспечения.</p>
+<a href="services.html" class="da-link">Далее</a>
+<div class="da-img"><img src="imgs/slider01.png" alt="image01" /></div>
+</div>
+<div class="da-slide">        
+<h2>ПК Сборка. Декабрь 2019</h2>
+<p>Три варианта сборок ПК за Декабрь, начальный средний и топовый.</p>
+<a href="articles01.html" class="da-link">Далее</a>
+<div class="da-img"><img src="imgs/slider02.png" alt="image01" /></div>
+</div>
+<nav class="da-arrows">
+<span class="da-arrows-prev"></span>
+<span class="da-arrows-next"></span>
+</nav>
+</div>
+</div>
+</div>
+</section>
       <section class="nextblock">
         <div class="wrapper">
           <div class="containers">
@@ -137,6 +151,8 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
   </body>
 </html>
