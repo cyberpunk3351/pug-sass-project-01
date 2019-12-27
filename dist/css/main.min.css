@@ -964,6 +964,23 @@ ul.breadcrumb li i {
   padding-right: 10px;
 }
 
+.socialIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: columns;
+          flex-direction: columns;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.socialIcon a:hover {
+  background-color: #fff;
+}
+
 .price {
   margin-top: 32px;
   font-family: "lato-font", sans-serif;
