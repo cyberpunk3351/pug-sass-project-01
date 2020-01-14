@@ -68,3 +68,4 @@ gulp.task('watch', function() {
 
 gulp.task('default', gulp.parallel('styles', 'gcmq', 'pug', 'browser-sync', 'watch'));
 gulp.task('default1', gulp.parallel('styles', 'copy-img', 'copy-font', 'gcmq', 'pug', 'browser-sync', 'watch'));
+gulp.task('build', gulp.parallel('styles', 'gcmq', 'pug', 'watch'));
