@@ -981,6 +981,10 @@ ul.breadcrumb li i {
   background-color: #fff;
 }
 
+.artcicles {
+  width: 100%;
+}
+
 .price {
   margin-top: 32px;
   font-family: "lato-font", sans-serif;
@@ -1063,10 +1067,6 @@ a:hover {
   padding-top: 15px;
   font-size: 22px;
   font-weight: bold;
-}
-
-.artcicles {
-  width: 100%;
 }
 
 @media (min-width: 767px) and (max-width: 1199.98px) {
