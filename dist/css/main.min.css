@@ -114,6 +114,56 @@ a {
   margin-left: auto;
 }
 
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loader img {
+  width: 30px;
+}
+
+.loader.hidden {
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.thumb {
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
 header {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -1083,6 +1133,85 @@ a:hover {
     width: 20%;
   }
 
+  .containers {
+    width: 100%;
+  }
+}webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+a:hover {
+  background-color: #98ccd3;
+}
+
+.accordion span {
+  float: right;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  -o-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+  margin: 5px;
+}
+
+.addcolor {
+  background-color: #CEEAF7;
+}
+
+.price {
+  margin: 10px;
+}
+
+#pc {
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#notebook {
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#pcandbook {
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media (min-width: 767px) and (max-width: 1199.98px) {
+  .containers {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
   .containers {
     width: 100%;
   }
