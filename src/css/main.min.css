@@ -94,6 +94,34 @@ body {
 
 a {
   text-decoration: none;
+  color: #0275d8;
+}
+
+a:hover {
+  color: #172C33;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #172C33;
+}
+
+ul.breadcrumb li i {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .wrapper {
@@ -420,6 +448,23 @@ header {
   background-color: #007EA7;
 }
 
+@media (max-width: 767.98px) {
+  .da-slide h2 {
+    text-align: center;
+    font-size: 24px;
+    top: 30px;
+  }
+  .da-slide p {
+    text-align: center;
+    font-size: 16px;
+    top: 100px;
+  }
+  .da-slide img {
+    display: hidden;
+    height: 50%;
+  }
+}
+
 .nextblock {
   margin-bottom: 32px;
 }
@@ -635,16 +680,13 @@ header {
 }
 
 .contFoo a {
-  display: block;
   color: #eeeeee;
   text-decoration: none;
 }
 
 .contFoo a:hover {
   text-decoration: none;
-  display: block;
   color: #00A8E8;
-  cursor: pointer;
 }
 
 .blocTel {
@@ -752,29 +794,6 @@ header {
   font-family: "lato-font", sans-serif;
 }
 
-ul.breadcrumb {
-  list-style: none;
-  padding-bottom: 16px;
-}
-
-ul.breadcrumb li {
-  display: inline;
-}
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-  color: #007ea7;
-}
-
-ul.breadcrumb li i {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .newsFlex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -857,34 +876,6 @@ ul.breadcrumb li i {
 .news2 {
   margin-top: 32px;
   font-family: "lato-font", sans-serif;
-}
-
-a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb {
-  list-style: none;
-  padding-bottom: 16px;
-}
-
-ul.breadcrumb li {
-  display: inline;
-}
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-  color: #007ea7;
-}
-
-ul.breadcrumb li i {
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 .newsFlex {
@@ -980,29 +971,6 @@ ul.breadcrumb li i {
   padding-bottom: 16px;
 }
 
-ul.breadcrumb {
-  list-style: none;
-  padding-bottom: 16px;
-}
-
-ul.breadcrumb li {
-  display: inline;
-}
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-  color: #007ea7;
-}
-
-ul.breadcrumb li i {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .servicesList {
   list-style: none;
   line-height: 1.4em;
@@ -1057,10 +1025,6 @@ ul.breadcrumb li i {
 
 .active, .accordion:hover {
   background-color: #ccc;
-}
-
-a:hover {
-  background-color: #98ccd3;
 }
 
 .accordion span {
