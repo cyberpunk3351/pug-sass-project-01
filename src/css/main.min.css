@@ -852,6 +852,9 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .shortNewsBlock .img {
+    width: 50%;
+  }
   .newsL {
     width: 100%;
   }
@@ -908,23 +911,11 @@ header {
           flex-direction: column;
 }
 
-.shortNewsBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 32px;
-}
-
-.shortNewsBlock img {
-  width: 100px;
-  height: 100px;
-}
-
-.shortNewsBlock .newsTitle {
+.newsR .newsTitle {
   padding-left: 15px;
 }
 
-.shortNewsBlock .newsTitle i {
+.newsR .newsTitle i {
   padding-right: 5px;
   padding-bottom: 16px;
 }
