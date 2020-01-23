@@ -852,8 +852,13 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .shortNewsBlock .img {
-    width: 50%;
+  .shortNewsBlock .newsImage {
+    width: 60px;
+    height: 60px;
+  }
+  .shortNewsBlock .newsImage img {
+    width: 60px;
+    height: auto;
   }
   .newsL {
     width: 100%;
