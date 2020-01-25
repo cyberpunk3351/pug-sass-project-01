@@ -1,5 +1,11 @@
 extends layouts/home
 
+block head_end
+  script(src='https://code.jquery.com/jquery-3.4.1.min.js')
+
 block content
-    include ./articles/pc-build-december-2019
-    include ./modules/footer/footer
+  include ./articles/pc-build-december-2019
+  include ./modules/footer/footer
+
+block body_end
+  script(src='js/pc-db-01.js')

@@ -1,7 +1,6 @@
 .news2
     margin-top: 32px
-    font-family: $default-font
-    
+    font-family: $default-font 
 
 
 .newsFlex
@@ -19,12 +18,12 @@
     flex-direction: column
 .shortNewsBlock
     display: flex
+    flex-direction: column
     padding-top: 32px    
     img 
         width: 100px
         height: 100px
     .newsTitle
-        padding-left: 15px
         i 
             padding-right: 5px
             padding-bottom: 16px
@@ -32,15 +31,19 @@
 @media (max-width: 767.98px)
     .newsFlex
         flex-direction: column
+        
     .shortNewsBlock
+        .newsTitle
+            padding-left: 0
         .newsImage
-            width: 60px
-            height: 60px
+            display: none
             img
-                width: 60px
-                height: auto
+                display: none
+                // width: 60px
+                // height: auto
     .newsL
         width: 100%
+        margin-bottom: 32px
     .newsR
         width: 100%
         display: flex

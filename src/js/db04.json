@@ -1,0 +1,65 @@
+[
+  {
+    "title01": "CPU",
+    "title": "AMD Ryzen 5 1600 BOX",
+    "shopcode": 1604575,
+    "link": "https://www.dns-shop.ru/product/bef12fd0f0643332/processor-amd-ryzen-5-1600-box/",
+    "cost": "8 399 Р."
+  },
+  {
+    "title01": "COOLER",
+    "title": "",
+    "shopcode": "",
+    "link": "",
+    "cost": ""
+  },
+  {
+    "title01": "VIDEO",
+    "title": "MSI AMD Radeon RX 580 ARMOR OC [RX 580 ARMOR 8G OC]",
+    "shopcode": 1113299,
+    "link": "https://www.dns-shop.ru/product/df404c0f1f5e3330/videokarta-msi-amd-radeon-rx-580-armor-oc-rx-580-armor-8g-oc/",
+    "cost": "12,999 Р."
+  },
+  {
+    "title01": "MB",
+    "title": "MSI B350M PRO-VD PLUS",
+    "shopcode": 1151988,
+    "link": "https://www.dns-shop.ru/product/42d015e38ba43330/materinskaa-plata-msi-b350m-pro-vd-plus/",
+    "cost": "4,250 Р."
+  },
+  {
+    "title01": "MEMORY",
+    "title": "A-Data XPG SPECTRIX D41 RGB [AX4U320038G16-DR41] 16 ГБ",
+    "shopcode": 1293611,
+    "link": "https://www.dns-shop.ru/product/c722ebb1c5e21b80/operativnaa-pamat-a-data-xpg-spectrix-d41-rgb-ax4u320038g16-dr41-16-gb/",
+    "cost": "5,999 Р."
+  },
+  {
+    "title01": "HDD",
+    "title": "",
+    "shopcode": "",
+    "link": "",
+    "cost": ""
+  },
+  {
+    "title01": "SSD",
+    "title": "480 ГБ SSD-накопитель WD Green [WDS480G2G0A]",
+    "shopcode": 1314763,
+    "link": "https://www.dns-shop.ru/product/adfd5d80f47e3332/480-gb-ssd-nakopitel-wd-green-wds480g2g0a/",
+    "cost": "3,650 Р."
+  },
+  {
+    "title01": "CASE",
+    "title": "Aerocool Cylon Mini [4718009152168]",
+    "shopcode": 1284101,
+    "link": "https://www.dns-shop.ru/product/f9baafd3b0cd3330/korpus-aerocool-cylon-mini-4718009152168-cernyj/",
+    "cost": "2,150 Р."
+  },
+  {
+    "title01": "POWER",
+    "title": "Cougar VTE600 [CGR BS-600]",
+    "shopcode": 1101691,
+    "link": "https://www.dns-shop.ru/product/d5214cf4f1833330/blok-pitania-cougar-vte600-cgr-bs-600/",
+    "cost": "3,399 Р."
+  }
+]
