@@ -887,78 +887,6 @@ header {
   }
 }
 
-.news2 {
-  margin-top: 32px;
-  font-family: "lato-font", sans-serif;
-}
-
-.newsFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 16px;
-  background-color: #fff;
-}
-
-.newsL {
-  width: 770px;
-}
-
-.newsR {
-  width: 370px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.newsR .newsTitle {
-  padding-left: 15px;
-}
-
-.newsR .newsTitle i {
-  padding-right: 5px;
-  padding-bottom: 16px;
-}
-
-@media (max-width: 767.98px) {
-  .newsFlex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .newsL {
-    width: 100%;
-  }
-  .newsR {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .services {
   margin-top: 32px;
   font-family: "lato-font", sans-serif;
@@ -1082,8 +1010,18 @@ header {
 }
 
 .pcMonth {
-  margin-top: 32px;
-  font-family: "lato-font", sans-serif;
+  margin-top: 16px;
+}
+
+.pcMonth2 .newsR {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 table {
@@ -1133,6 +1071,25 @@ td:first-child {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pcMonth .newsFlex .newsL {
+    width: 80%;
+  }
+  .pcMonth .newsFlex .newsR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

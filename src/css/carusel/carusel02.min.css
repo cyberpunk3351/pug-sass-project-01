@@ -1,0 +1,24 @@
+.caruselSlider {
+  padding-bottom: 16px;
+}
+
+.caruselSlider .wrapper {
+  background-color: #007EA7;
+}
+
+@media (max-width: 767.98px) {
+  .da-slide h2 {
+    text-align: center;
+    font-size: 24px;
+    top: 30px;
+  }
+  .da-slide p {
+    text-align: center;
+    font-size: 16px;
+    top: 100px;
+  }
+  .da-slide img {
+    display: hidden;
+    height: 50%;
+  }
+}

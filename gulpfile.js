@@ -19,7 +19,7 @@ gulp.task('browser-sync', function() {
 
 gulp.task('styles', function() {
 	// return gulp.src('app/'+syntax+'/**/*.'+syntax+'')
-	return gulp.src('src/sass/**/*.sass')
+	return gulp.src(['src/sass/**/*.sass', 'src/pug/articles/**/*.sass'])
 	.pipe(sass({ outputStyle: 'expanded' }).on("error", notify.onError()))
 	.pipe(rename({ suffix: '.min', prefix : '' }))
 	.pipe(autoprefixer(['last 5 versions']))
