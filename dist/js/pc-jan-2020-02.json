@@ -1,0 +1,58 @@
+[
+    {
+        "title01": "CPU",
+        "shopcode": 1359335,
+        "title": "Intel Core i3-9100F BOX",
+        "cost": 6050
+    },
+    {
+        "title01": "COOLER",
+        "title": "",
+        "shopcode": "",
+        "link": "",
+        "cost": ""
+    },
+    {
+        "title01": "VIDEO",
+        "shopcode": 1113299,
+        "title": "MSI AMD Radeon RX 580 ARMOR OC [RX 580 ARMOR 8G OC]",
+        "cost": 12999
+    },
+    {
+        "title01": "MB",
+        "shopcode": 1370879,
+        "title": "ASUS PRIME H310M-R R2.0",
+        "cost": 3250
+    },
+    {
+        "title01": "MEMORY",
+        "shopcode": 1293633,
+        "title": "A-Data XPG Gammix D10 [AX4U266638G16-DRG] 16 ГБ",
+        "cost": 4799
+    },
+    {
+        "title01": "HDD",
+        "shopcode": "",
+        "title":"",
+        "link": "",
+        "cost": ""
+    },
+    {
+        "title01": "SSD",
+        "shopcode": 1314763,
+        "title": "480 ГБ SSD-накопитель WD Green [WDS480G2G0A]",
+        "cost": 3650
+    },
+    {
+        "title01": "CASE",
+        "shopcode": 1284101,
+        "title": "Aerocool Cylon Mini [4718009152168]",
+        "cost": 2150
+    },
+    {
+        "title01": "POWER",
+        "shopcode": 1101691,
+        "title": "Cougar VTE600 [CGR BS-600]",
+        "cost": 3399
+    }
+]

@@ -58,14 +58,21 @@ gulp.task('copy-font', function() {
         .pipe(gulp.dest('./dist/fonts'));
 });
 
+gulp.task('copy-js', async function(){
+    return gulp.src('./src/js/**/*.{js,json}')
+        // .pipe(newer('./src/**/*.{js,json}'))
+        .pipe(gulp.dest('./dist/js'));
+});
+
 gulp.task('watch', function() {
     gulp.watch(['src/sass/**/*.sass', 'src/pug/modules/**/*.sass'], gulp.parallel('styles'));
     gulp.watch(['src/css/main.min.css'], gulp.parallel('gcmq'));
 	gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
 	gulp.watch('src/css/**/*.css', gulp.parallel('copy-css'));
+	gulp.watch('src/js/**/*.{js,json}', gulp.parallel('copy-js'));
 	gulp.watch('src/img/**/*.{jpg,png,svg}', gulp.parallel('copy-img'));
 });
 
-gulp.task('default', gulp.parallel('styles', 'gcmq', 'pug', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('copy-js','styles', 'gcmq', 'pug', 'browser-sync', 'watch'));
 gulp.task('default1', gulp.parallel('styles', 'copy-img', 'copy-font', 'gcmq', 'pug', 'browser-sync', 'watch'));
 gulp.task('build', gulp.parallel('styles', 'gcmq', 'pug', 'watch'));

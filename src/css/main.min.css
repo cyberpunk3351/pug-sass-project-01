@@ -1014,7 +1014,6 @@ header {
 }
 
 .pcMonth2 .newsR {
-  margin-top: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1079,6 +1078,7 @@ td:first-child {
     width: 80%;
   }
   .pcMonth .newsFlex .newsR {
+    padding-top: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

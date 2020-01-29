@@ -7,7 +7,3 @@ function doMagic(path, tableid) {
         });
     });
     }
-
-doMagic('/js/db04.json', '#table')
-
-doMagic('/js/db04.json', '#table2')
