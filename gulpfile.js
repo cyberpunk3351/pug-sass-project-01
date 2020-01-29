@@ -59,7 +59,7 @@ gulp.task('copy-font', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch(['src/sass/**/*.sass', './src/pug/modules/**/*.sass'], gulp.parallel('styles'));
+    gulp.watch(['src/sass/**/*.sass', 'src/pug/modules/**/*.sass'], gulp.parallel('styles'));
     gulp.watch(['src/css/main.min.css'], gulp.parallel('gcmq'));
 	gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
 	gulp.watch('src/css/**/*.css', gulp.parallel('copy-css'));
