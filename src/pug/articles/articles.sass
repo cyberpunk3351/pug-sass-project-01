@@ -6,10 +6,13 @@
         justify-content: center
         text-align: center
 
+.newsTitle
+    h3
+        margin-top: 32px
 table
     border-collapse: collapse
     width: 100%
-    font-size: 14px
+    font-size: 16px
 
 
 td, th 
@@ -42,6 +45,12 @@ td:first-child
 
 
 @media (min-width: 767px) and (max-width: 1199.98px)
+    table
+        width: 100%
+        font-size: 14px
+    .col1, .col2
+        width: 100px
+        font-size: 12px
     .pcMonth
         .newsFlex
             flex-direction: column
@@ -55,3 +64,11 @@ td:first-child
                 text-align: center
                 justify-content: center
                 align-items: center
+
+
+@media (max-width: 767.98px)
+    table
+        width: 100%
+        font-size: 12px
+    .col1, .col2
+        width: 100px
