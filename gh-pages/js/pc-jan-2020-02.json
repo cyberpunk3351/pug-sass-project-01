@@ -1,0 +1,66 @@
+[
+    {
+        "title01": "CPU",
+        "shopcode": 1359335,
+        "title": "Intel Core i3-9100F BOX",
+        "link": "https://www.dns-shop.ru/product/06b8759264b71b80/processor-intel-core-i3-9100f-box/",
+        "cost": 6050,
+        "allcoast": 36297
+    },
+    {
+        "title01": "COOLER",
+        "shopcode": " ",
+        "title": " ",
+        "link": " ",
+        "cost": " "
+    },
+    {
+        "title01": "VIDEO",
+        "shopcode": 1113299,
+        "title": "MSI AMD Radeon RX 580 ARMOR OC [RX 580 ARMOR 8G OC]",
+        "link": "https://www.dns-shop.ru/product/df404c0f1f5e3330/videokarta-msi-amd-radeon-rx-580-armor-oc-rx-580-armor-8g-oc/",
+        "cost": 12999
+    },
+    {
+        "title01": "MB",
+        "shopcode": 1370879,
+        "title": "ASUS PRIME H310M-R R2.0",
+        "link": "https://www.dns-shop.ru/product/d8abdddc8b6c1b80/materinskaa-plata-asus-prime-h310m-r-r20/",
+        "cost": 3250
+    },
+    {
+        "title01": "MEMORY",
+        "shopcode": 1293633,
+        "title": "A-Data XPG Gammix D10 [AX4U266638G16-DRG] 16 ГБ",
+        "link": "https://www.dns-shop.ru/product/c722ebc7c5e21b80/operativnaa-pamat-a-data-xpg-gammix-d10-ax4u266638g16-drg-16-gb/",
+        "cost": 4799
+    },
+    {
+        "title01": "HDD",
+        "shopcode": " ",
+        "title": " ",
+        "link": " ",
+        "cost": " "
+    },
+    {
+        "title01": "SSD",
+        "shopcode": 1314763,
+        "title": "480 ГБ SSD-накопитель WD Green [WDS480G2G0A]",
+        "link": "https://www.dns-shop.ru/product/adfd5d80f47e3332/480-gb-ssd-nakopitel-wd-green-wds480g2g0a/",
+        "cost": 3650
+    },
+    {
+        "title01": "CASE",
+        "shopcode": 1284101,
+        "title": "Aerocool Cylon Mini [4718009152168]",
+        "link": "https://www.dns-shop.ru/product/f9baafd3b0cd3330/korpus-aerocool-cylon-mini-4718009152168-cernyj/",
+        "cost": 2150
+    },
+    {
+        "title01": "POWER",
+        "shopcode": 1101691,
+        "title": "Cougar VTE600 [CGR BS-600]",
+        "link": "https://www.dns-shop.ru/product/d5214cf4f1833330/blok-pitania-cougar-vte600-cgr-bs-600/",
+        "cost": 3399
+    }
+]

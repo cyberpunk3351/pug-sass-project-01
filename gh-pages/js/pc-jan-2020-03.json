@@ -1,0 +1,66 @@
+[
+    {
+        "title01": "CPU",
+        "shopcode": 1372637,
+        "title": "AMD Ryzen 5 3600 OEM",
+        "link": "https://www.dns-shop.ru/product/b9c6465190d21b80/processor-amd-ryzen-5-3600-oem/",
+        "cost": 13999,
+        "allcoast": 52296
+    },
+    {
+        "title01": "COOLER",
+        "shopcode": 148576,
+        "title": "DEEPCOOL GAMMAXX 300",
+        "link": "https://www.dns-shop.ru/product/e22fb60689b0526f/kuler-dla-processora-deepcool-gammaxx-300-dp-mch3-gmx300/",
+        "cost": 1450
+    },
+    {
+        "title01": "VIDEO",
+        "shopcode": 1372481,
+        "title": "Sapphire AMD Radeon RX 590 PULSE [11289-06-20G]",
+        "link": "https://www.dns-shop.ru/product/d4aa3e2690ab1b80/videokarta-sapphire-amd-radeon-rx-590-pulse-11289-06-20g/",
+        "cost": 14999
+    },
+    {
+        "title01": "MB",
+        "shopcode": 1391810,
+        "title": "MSI B450M PRO-M2 MAX",
+        "link": "https://www.dns-shop.ru/product/e5066cb4cd1d1b80/materinskaa-plata-msi-b450m-pro-m2-max/",
+        "cost": 4250
+    },
+    {
+        "title01": "MEMORY",
+        "shopcode": 1293611,
+        "title": "A-Data XPG SPECTRIX D41 RGB [AX4U320038G16-DR41] 16 ГБ",
+        "link": "https://www.dns-shop.ru/product/c722ebb1c5e21b80/operativnaa-pamat-a-data-xpg-spectrix-d41-rgb-ax4u320038g16-dr41-16-gb/",
+        "cost": 5999
+    },
+    {
+        "title01": "HDD",
+        "shopcode": " ",
+        "title": " ",
+        "link": " ",
+        "cost": " "
+    },
+    {
+        "title01": "SSD",
+        "shopcode": 1314763,
+        "title": "480 ГБ SSD-накопитель WD Green [WDS480G2G0A]",
+        "link": "https://www.dns-shop.ru/product/adfd5d80f47e3332/480-gb-ssd-nakopitel-wd-green-wds480g2g0a/",
+        "cost": 3650
+    },
+    {
+        "title01": "CASE",
+        "shopcode": 1284101,
+        "title": "Aerocool Cylon Mini [4718009152168]",
+        "link": "https://www.dns-shop.ru/product/f9baafd3b0cd3330/korpus-aerocool-cylon-mini-4718009152168-cernyj/",
+        "cost": 2150
+    },
+    {
+        "title01": "POWER",
+        "shopcode": 1036436,
+        "title": "Deepcool DQ ST 750W [DQ750ST]",
+        "link": "https://www.dns-shop.ru/product/9a4aa6ee6afe3361/blok-pitania-deepcool-dq-st-750w-dq750st/",
+        "cost": 5799
+    }
+]

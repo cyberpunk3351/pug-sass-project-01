@@ -1,0 +1,66 @@
+[
+    {
+        "title01": "CPU",
+        "shopcode": 1329694,
+        "title": "Intel Core i5-9400F OEM",
+        "link": "https://www.dns-shop.ru/product/cace956417a13332/processor-intel-core-i5-9400f-oem/",
+        "cost": 10499,
+        "allcoast": 54045
+    },
+    {
+        "title01": "COOLER",
+        "shopcode": 148576,
+        "title": "DEEPCOOL GAMMAXX 300",
+        "link": "https://www.dns-shop.ru/product/e22fb60689b0526f/kuler-dla-processora-deepcool-gammaxx-300-dp-mch3-gmx300/",
+        "cost": 1450
+    },
+    {
+        "title01": "VIDEO",
+        "shopcode": 1611000,
+        "title": "MSI GeForce GTX 1660 SUPER VENTUS XS OCV1",
+        "link": "https://www.dns-shop.ru/product/c89ab2f7052f1b80/videokarta-msi-geforce-gtx-1660-super-ventus-xs-ocv1-geforce-gtx-1660-super-ventus-xs-ocv1/",
+        "cost": 16999
+    },
+    {
+        "title01": "MB",
+        "shopcode": 1339413,
+        "title": "GIGABYTE Z390 M",
+        "link": "https://www.dns-shop.ru/product/e41b7d4129d21b80/materinskaa-plata-gigabyte-z390-m/",
+        "cost": 7499
+    },
+    {
+        "title01": "MEMORY",
+        "shopcode": 1293611,
+        "title": "A-Data XPG SPECTRIX D41 RGB [AX4U320038G16-DR41] 16 ГБ",
+        "link": "https://www.dns-shop.ru/product/c722ebb1c5e21b80/operativnaa-pamat-a-data-xpg-spectrix-d41-rgb-ax4u320038g16-dr41-16-gb/",
+        "cost": 5999
+    },
+    {
+        "title01": "HDD",
+        "shopcode": " ",
+        "title": " ",
+        "link": " ",
+        "cost": " "
+    },
+    {
+        "title01": "SSD",
+        "shopcode": 1314763,
+        "title": "480 ГБ SSD-накопитель WD Green [WDS480G2G0A]",
+        "link": "https://www.dns-shop.ru/product/adfd5d80f47e3332/480-gb-ssd-nakopitel-wd-green-wds480g2g0a/",
+        "cost": 3650
+    },
+    {
+        "title01": "CASE",
+        "shopcode": 1284101,
+        "title": "Aerocool Cylon Mini [4718009152168]",
+        "link": "https://www.dns-shop.ru/product/f9baafd3b0cd3330/korpus-aerocool-cylon-mini-4718009152168-cernyj/",
+        "cost": 2150
+    },
+    {
+        "title01": "POWER",
+        "shopcode": 1036436,
+        "title": "Deepcool DQ ST 750W [DQ750ST]",
+        "link": "https://www.dns-shop.ru/product/9a4aa6ee6afe3361/blok-pitania-deepcool-dq-st-750w-dq750st/",
+        "cost": 5799
+    }
+]
