@@ -12,7 +12,7 @@ function doMagic(path, tableid) {
 
     function doMagic2(path, tableid) {
     $(function(){
-        $.getJSON('/js/pc-jan-2020-03.json', function(data) {
+        $.getJSON(path, function(data) {
                 // for(var i=0;i<data.users.length;i++){
                     $(tableid).append('<p> ИТОГО: ' + data[0].allcoast + '</p>');
                 // }

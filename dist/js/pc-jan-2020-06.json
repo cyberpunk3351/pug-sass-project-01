@@ -1,0 +1,66 @@
+[
+    {
+        "title01": "CPU",
+        "shopcode": 1363120,
+        "title": "Intel Core i5-9500F OEM",
+        "link": "https://www.dns-shop.ru/product/1ebbc007751e3332/processor-intel-core-i5-9500f-oem/",
+        "cost": 13499,
+        "allcoast": 82742
+    },
+    {
+        "title01": "COOLER",
+        "shopcode": 1290658,
+        "title": "DEEPCOOL GAMMAXX GTE [DP-MCH4-GMX-GTE]",
+        "link": "https://www.dns-shop.ru/product/0e1d2afabd5f3330/kuler-dla-processora-deepcool-gammaxx-gte-dp-mch4-gmx-gte/",
+        "cost": 2299
+    },
+    {
+        "title01": "VIDEO",
+        "shopcode": 1378004,
+        "title": "Sapphire AMD Radeon RX 5700 [21294-01-20G]",
+        "link": "https://www.dns-shop.ru/product/194ab02da1763332/videokarta-sapphire-amd-radeon-rx-5700-21294-01-20g/",
+        "cost": 24099
+    },
+    {
+        "title01": "MB",
+        "shopcode": 1339413,
+        "title": "GIGABYTE Z390 M",
+        "link": "https://www.dns-shop.ru/product/e41b7d4129d21b80/materinskaa-plata-gigabyte-z390-m/",
+        "cost": 7499
+    },
+    {
+        "title01": "MEMORY",
+        "shopcode": 1293611,
+        "title": "A-Data XPG SPECTRIX D41 RGB [AX4U320038G16-DR41] 16 ГБ",
+        "link": "https://www.dns-shop.ru/product/c722ebb1c5e21b80/operativnaa-pamat-a-data-xpg-spectrix-d41-rgb-ax4u320038g16-dr41-16-gb/",
+        "cost": 5999
+    },
+    {
+        "title01": "HDD",
+        "shopcode": 1124447,
+        "title": "4 ТБ Жесткий диск WD Purple [WD40PURZ]",
+        "link": "https://www.dns-shop.ru/product/8504a25c47303330/4-tb-zestkij-disk-wd-purple-wd40purz/",
+        "cost": 8299
+    },
+    {
+        "title01": "SSD",
+        "shopcode": 1309806,
+        "title": "512 ГБ SSD M.2 накопитель A-Data XPG SX8200 Pr",
+        "link": "https://www.dns-shop.ru/product/9c697f5ee9651b80/512-gb-ssd-m2-nakopitel-a-data-xpg-sx8200-pro-asx8200pnp-512gt-c/",
+        "cost": 6399
+    },
+    {
+        "title01": "CASE",
+        "shopcode": 1142065,
+        "title": "Fractal Design Define C TG [FD-CA-DEF-C-BK-TG]",
+        "link": "https://www.dns-shop.ru/product/d6bc39f377f13330/korpus-fractal-design-define-c-tg-fd-ca-def-c-bk-tg-cernyj/",
+        "cost": 8050
+    },
+    {
+        "title01": "POWER",
+        "shopcode": 1339705,
+        "title": "be quiet! Pure Power 11 600W [BN294]",
+        "link": "https://www.dns-shop.ru/product/bccfd7a32a8f3332/blok-pitania-be-quiet-pure-power-11-600w-bn294/",
+        "cost": 6599
+    }
+]

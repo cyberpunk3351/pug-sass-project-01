@@ -57,6 +57,17 @@ td:first-child {
   text-align: center;
 }
 
+.allcoast1, .allcoast2, .allcoast3, .allcoast4, .allcoast5, .allcoast6 {
+  text-align: right;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+.allcoast1 p:after, .allcoast2 p:after, .allcoast3 p:after, .allcoast4 p:after, .allcoast5 p:after, .allcoast6 p:after {
+  content: "\20BD";
+  padding-left: 7px;
+}
+
 @media (min-width: 767px) and (max-width: 1199.98px) {
   table {
     width: 100%;

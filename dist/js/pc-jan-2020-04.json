@@ -1,32 +1,32 @@
 [
     {
         "title01": "CPU",
-        "shopcode": 1604575,
-        "title": "AMD Ryzen 5 1600 BOX",
-        "link": "https://www.dns-shop.ru/product/bef12fd0f0643332/processor-amd-ryzen-5-1600-box/",
-        "cost": 8399,
-        "allcoast": 40846
+        "shopcode": 1329694,
+        "title": "Intel Core i5-9400F OEM",
+        "link": "https://www.dns-shop.ru/product/cace956417a13332/processor-intel-core-i5-9400f-oem/",
+        "cost": 10499,
+        "allcoast": 54045
     },
     {
         "title01": "COOLER",
-        "shopcode": " ",
-        "title": " ",
-        "link": " ",
-        "cost": " "
+        "shopcode": 148576,
+        "title": "DEEPCOOL GAMMAXX 300",
+        "link": "https://www.dns-shop.ru/product/e22fb60689b0526f/kuler-dla-processora-deepcool-gammaxx-300-dp-mch3-gmx300/",
+        "cost": 1450
     },
     {
         "title01": "VIDEO",
-        "shopcode": 1113299,
-        "title": "MSI AMD Radeon RX 580 ARMOR OC [RX 580 ARMOR 8G OC]",
-        "link": "https://www.dns-shop.ru/product/df404c0f1f5e3330/videokarta-msi-amd-radeon-rx-580-armor-oc-rx-580-armor-8g-oc/",
-        "cost": 12999
+        "shopcode": 1611000,
+        "title": "MSI GeForce GTX 1660 SUPER VENTUS XS OCV1",
+        "link": "https://www.dns-shop.ru/product/c89ab2f7052f1b80/videokarta-msi-geforce-gtx-1660-super-ventus-xs-ocv1-geforce-gtx-1660-super-ventus-xs-ocv1/",
+        "cost": 16999
     },
     {
         "title01": "MB",
-        "shopcode": 1151988,
-        "title": "MSI B350M PRO-VD PLUS",
-        "link": "https://www.dns-shop.ru/product/42d015e38ba43330/materinskaa-plata-msi-b350m-pro-vd-plus/",
-        "cost": 4250
+        "shopcode": 1339413,
+        "title": "GIGABYTE Z390 M",
+        "link": "https://www.dns-shop.ru/product/e41b7d4129d21b80/materinskaa-plata-gigabyte-z390-m/",
+        "cost": 7499
     },
     {
         "title01": "MEMORY",
@@ -58,9 +58,9 @@
     },
     {
         "title01": "POWER",
-        "shopcode": 1101691,
-        "title": "Cougar VTE600 [CGR BS-600]",
-        "link": "https://www.dns-shop.ru/product/d5214cf4f1833330/blok-pitania-cougar-vte600-cgr-bs-600/",
-        "cost": 3399
+        "shopcode": 1036436,
+        "title": "Deepcool DQ ST 750W [DQ750ST]",
+        "link": "https://www.dns-shop.ru/product/9a4aa6ee6afe3361/blok-pitania-deepcool-dq-st-750w-dq750st/",
+        "cost": 5799
     }
 ]
